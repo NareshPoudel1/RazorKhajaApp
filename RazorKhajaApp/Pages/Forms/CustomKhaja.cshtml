@@ -1,0 +1,26 @@
+﻿@page
+@model RazorKhajaApp.Pages.Forms.CustomKhajaModel
+@{
+}
+
+<div class="text-center container">
+    <h1>Choose Your  Khaja-Set Side-Dish</h1>
+    <form method="post" class="mx-auto mt-5 mb-5 px-5 pt-5 rounded-5 bg-light col-4">
+        <input type="text" asp-for="Khaja.KhajaName" placeholder="Give your KhajaName..." />
+        <br />
+        <input type="checkbox" asp-for="Khaja.Papad" placeholder="Papadii..." />Papad
+        <br />
+        <input type="checkbox" asp-for="Khaja.Aachar" placeholder="Aachar..." />Aachar
+        <br />
+        <input type="checkbox" asp-for="Khaja.SajhaKhana" placeholder="SahjaKhana..." />SajaKhana
+        <br />
+        <input type="checkbox" asp-for="Khaja.Masu" placeholder="Masuiii..." />Masu
+        <br />
+        <input type="checkbox" asp-for="Khaja.Fish" placeholder="Fishhh..." />Fish
+        <br />
+        
+
+        <buttom class="btn btn-primary mt-1" typeof="submit">Order Khaja</buttom>
+
+    </form>
+</div>

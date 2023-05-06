@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <div class="mainText">
+        <h1 class="display-4">Welcome To Khaja Ghar</h1>
+        <h2 class="mainSubTitle"> Khaja Ghar is for everone!</h2>
+        <img class="mainImage" src="~/images/bakati.JPG" width="300" height="200" />
+    </div>
+    <br />
+    <form method="get" asp-page="/Khaja">
+        <button type="submit" class="btn btn-primary margint-1" formaction="/Khaja">YO Khaja Khane</button>
+    </form>
+
+</div>
